@@ -14,6 +14,7 @@ composer require tuzlu07x/parasut
 
 ```php
 <?php
+    use Parasut/Ftuzlu/Integrations/Parasut;
 
         $cache = 'Cache remember or another cache packages';
         $userName = 'ftuzlu'
@@ -30,6 +31,7 @@ $parasut = new Parasut($cache, $userName,$password,$companyId,$clientId,$clientS
 
 ```php
 <?php
+use Parasut/Ftuzlu/Integrations/Category;
 
 $category = new Category($parasut)
 
@@ -56,6 +58,8 @@ $delete = $category->delete($id);
 
 ```php
 <?php
+use Parasut/Ftuzlu/Integrations/Product;
+
 
 $product = new Product($parasut)
 $data=[
@@ -95,6 +99,7 @@ $delete = $product->delete($id);
 
 ```php
 <?php
+use Parasut/Ftuzlu/Integrations/SaleInvoice;
 
 $invoice = new SaleInvoice($parasut)
 $data=[
@@ -157,6 +162,8 @@ $delete = $invoce->delete($id);
 
 ```php
 <?php
+use Parasut/Ftuzlu/Integrations/WareHouse;
+
     $wareHouse = new WareHouse($parasut)
 
     $data = [
