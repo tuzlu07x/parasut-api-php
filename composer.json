@@ -15,6 +15,16 @@
             "email": "fatihtuzlu07@gmail.com"
         }
     ],
+    "autoload-dev": {
+    "psr-4": {
+      "parasut\\": "src"
+    }
+  },
+    "autoload": {
+        "psr-4": {
+        "Parasut\\Ftuzlu\\": "src"
+        }
+    },
     "require": {
         "php": ">=7.4",
         "guzzlehttp/guzzle": "^7.2",

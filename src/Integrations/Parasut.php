@@ -1,6 +1,6 @@
 <?php
 
-namespace Integrations;
+namespace Parasut\Ftuzlu\Integrations;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
