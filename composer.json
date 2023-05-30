@@ -9,29 +9,33 @@
         "php",
         "laravel paraşüt api"
     ],
-    "type": "library",
-  "minimum-stability": "stable",
-  "prefer-stable": true,
-     "authors": [
-    {
-      "name": "Fatih TUZLU",
-      "email": "fatihtuzlu07@gmail.com",
-      "role": "Developer"
-    }
-  ],
+    "authors": [
+        {
+            "name": "Fatih Tuzlu",
+            "email": "fatihtuzlu07@gmail.com"
+        }
+    ],
     "autoload-dev": {
-    "psr-4": {
-      "parasut\\": "src"
-    }
-  },
+        "psr-4": {
+            "Parasut\\Ftuzlu\\": "src"
+        }
+    },
     "autoload": {
         "psr-4": {
-        "Parasut\\Ftuzlu\\": "src"
+            "Parasut\\Ftuzlu\\": "src"
         }
     },
     "require": {
         "php": "^8.0",
         "guzzlehttp/guzzle": "^7.2",
         "psr/cache": "^3.0"
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "minimum-stability": "dev",
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
     }
 }
