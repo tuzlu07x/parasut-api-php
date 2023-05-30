@@ -6,7 +6,9 @@
 
 ## Usage
 
+```
 composer require ftuzlu/parasut
+```
 
 ## Parasut API Auth informations
 
