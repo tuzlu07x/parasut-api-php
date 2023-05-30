@@ -15,7 +15,6 @@ class ComposerStaticInitce0773336bfd5cafe8ff9842e480a8cc
     public static $prefixLengthsPsr4 = array (
         'p' => 
         array (
-            'parasut\\ftuzlu\\' => 15,
             'parasut\\' => 8,
         ),
         'P' => 
@@ -23,6 +22,7 @@ class ComposerStaticInitce0773336bfd5cafe8ff9842e480a8cc
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
             'Psr\\Cache\\' => 10,
+            'Parasut\\Ftuzlu\\' => 15,
         ),
         'G' => 
         array (
@@ -33,10 +33,6 @@ class ComposerStaticInitce0773336bfd5cafe8ff9842e480a8cc
     );
 
     public static $prefixDirsPsr4 = array (
-        'parasut\\ftuzlu\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'parasut\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -53,6 +49,10 @@ class ComposerStaticInitce0773336bfd5cafe8ff9842e480a8cc
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Parasut\\Ftuzlu\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
