@@ -3,7 +3,7 @@
         'name' => 'tuzlu07x/parasut',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ef469a20fb915fb79273dac16b120377e67a7ae2',
+        'reference' => 'e165a26756995db50632469e6632b3a452518c4b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -112,7 +112,7 @@
         'tuzlu07x/parasut' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ef469a20fb915fb79273dac16b120377e67a7ae2',
+            'reference' => 'e165a26756995db50632469e6632b3a452518c4b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
