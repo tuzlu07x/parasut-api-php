@@ -29,6 +29,5 @@
         "php": "^8.0",
         "guzzlehttp/guzzle": "^7.2",
         "psr/cache": "^3.0"
-    },
-    "minimum-stability": "dev"
+    }
 }
