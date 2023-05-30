@@ -1,0 +1,23 @@
+{
+    "name": "tuzlu07x/parasut",
+    "description": "Parasut Api",
+    "license": "MIT",
+    "keywords": [
+        "parasut",
+        "paraşüt api",
+        "e-ticaret",
+        "php",
+        "laravel paraşüt api"
+    ],
+     "authors": [
+        {
+            "name": "Fatih Tuzlu",
+            "email": "fatihtuzlu07@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.2",
+        "psr/cache": "^3.0"
+    } 
+}
