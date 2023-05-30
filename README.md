@@ -7,7 +7,7 @@
 ## Usage
 
 ```
-composer require ftuzlu/parasut
+composer require tuzlu07x/parasut
 ```
 
 ## Parasut API Auth informations
